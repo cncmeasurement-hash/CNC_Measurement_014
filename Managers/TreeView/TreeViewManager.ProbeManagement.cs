@@ -73,7 +73,7 @@ namespace _014
                 }
                 
                 // TreeView'de yeni grup node'u oluştur
-                TreeNode groupNode = CreateNewProbeGroup();
+                TreeNode groupNode = CreateNewProbeGroup(groupId);
                 if (groupNode == null) return;
                 
                 // Grup ID'sini TreeNode'a kaydet
@@ -148,15 +148,6 @@ namespace _014
                 
                 System.Diagnostics.Debug.WriteLine($"✅ TreeView'e eklendi: {pointText}");
                 
-                // ✅ Otomatik JSON kaydet (her nokta eklendiğinde)
-                try
-                {
-                    _014.Managers.Data.MeasurementDataManager.Instance.SaveToJson();
-                }
-                catch (Exception saveEx)
-                {
-                    System.Diagnostics.Debug.WriteLine($"⚠️ Otomatik kayıt hatası: {saveEx.Message}");
-                }
 
                 // ✅ DÜZELTİLDİ: DataManager'a nokta ekleme KALDIRILDI
                 // Nokta zaten PointProbingHandler.AddProbePoint() içinde MeasurementDataManager.Instance.AddPoint() ile ekleniyor
@@ -176,7 +167,7 @@ namespace _014
         /// <summary>
         /// ✅ Yeni probe grubu oluştur
         /// </summary>
-        public TreeNode CreateNewProbeGroup()
+        public TreeNode CreateNewProbeGroup(int groupId)
         {
             try
             {
@@ -201,7 +192,7 @@ namespace _014
                 // Yeni grup node'u oluştur
                 TreeNode groupNode = new TreeNode($"Probing - Point {newGroupNumber}")
                 {
-                    Tag = "PROBE_GROUP",
+                    Tag = $"PROBE_GROUP_{groupId}",
                     ForeColor = Color.Black,
                     NodeFont = new Font("Segoe UI", 9F, FontStyle.Bold)
                 };
@@ -220,7 +211,7 @@ namespace _014
                 // ⭐ YENİ: DataManager'a kaydet
                 var measurementGroup = new MeasurementGroup
                 {
-                    GroupId = newGroupNumber,
+                    GroupId = groupId,
                     GroupName = $"Probing - Point {newGroupNumber}",
                     MeasurementMode = "PointProbing",
                     ProbeName = SelectedProbe,
