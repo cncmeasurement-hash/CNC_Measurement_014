@@ -121,9 +121,16 @@ namespace _014.Managers.Data
                     jsonFilePath = PathManager.GetSurfaceCacheJsonPath(stepFileName);
                 }
 
+                // ✅ YENİ EKLEME: Eski dosya varsa önce sil
+                if (File.Exists(jsonFilePath))
+                {
+                    File.Delete(jsonFilePath);
+                    System.Diagnostics.Debug.WriteLine($"🗑️ Eski surface cache silindi: {jsonFilePath}");
+                }
+
                 File.WriteAllText(jsonFilePath, jsonString);
 
-                System.Diagnostics.Debug.WriteLine($"💾 Surface cache kaydedildi: {jsonFilePath}");
+                System.Diagnostics.Debug.WriteLine($"💾 Yeni surface cache kaydedildi: {jsonFilePath}");
                 System.Diagnostics.Debug.WriteLine($"   {surfacesList.Count} yüzey kaydedildi");
                 return true;
             }

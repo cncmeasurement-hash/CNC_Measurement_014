@@ -267,3 +267,4 @@ D:\CNC Measrument\DENEMELER\014\014\014\obj\x64\Debug\net8.0-windows\refint\014.
 D:\CNC Measrument\DENEMELER\014\014\014\obj\x64\Debug\net8.0-windows\014.pdb
 D:\CNC Measrument\DENEMELER\014\014\014\obj\x64\Debug\net8.0-windows\014.genruntimeconfig.cache
 D:\CNC Measrument\DENEMELER\014\014\014\obj\x64\Debug\net8.0-windows\ref\014.dll
+D:\CNC Measrument\DENEMELER\014\014\014\obj\x64\Debug\net8.0-windows\014.sourcelink.json
