@@ -805,12 +805,13 @@ namespace _014.Managers.Data
                     _nextGroupId = 1;
                     Debug.WriteLine("🗑️ Eski measurement verileri temizlendi");
 
-                    // ✅ 4. YENİ JSON DOSYASINI YÜKLE (varsa)
+                    // ✅ 4. ESKİ JSON DOSYASINI SİL (varsa)
                     string newJsonPath = _jsonFilePath;
                     if (File.Exists(newJsonPath))
                     {
-                        Debug.WriteLine($"📂 Mevcut JSON bulundu, yükleniyor: {newJsonPath}");
-                        LoadFromJson();
+                        File.Delete(newJsonPath);
+                        Debug.WriteLine($"🗑️ Eski measurement dosyası silindi: {newJsonPath}");
+                        Debug.WriteLine($"📝 Yeni JSON dosyası oluşturulacak: {newJsonPath}");
                     }
                     else
                     {
