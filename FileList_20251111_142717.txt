@@ -1,0 +1,284 @@
+═══════════════════════════════════════════════════════════════
+  PROJE DOSYA LİSTESİ - 2025-11-11 14:27:19
+═══════════════════════════════════════════════════════════════
+Proje: 014
+Yol: D:\CNC Measrument\DENEMELER\014\014\014
+Toplam Dosya: 168
+═══════════════════════════════════════════════════════════════
+
+
+[]
+──────────────────────────────────────────────────────────────────────
+  • .gitignore                                               69 B
+  • 014.csproj                                               3 KB
+  • 014.csproj.user                                          2 KB
+  • App.config                                              807 B
+  • EdgeToEdgeManager.cs                                    33 KB
+  • FaceToFaceManager.cs                                    34 KB
+  • Form1.cs                                                 7 KB
+  • Form1.Designer.cs                                       73 KB
+  • Form1.resx                                               4 MB
+  • JSON_Shortcut.lnk                                        1 KB
+  • MeasurementGroup.cs                                      7 KB
+  • MeasurementPoint.cs                                      7 KB
+  • README.md                                               158 B
+
+[Analyzers\Cylindrical]
+──────────────────────────────────────────────────────────────────────
+  • Cylindricalanalyzer.cs                                  13 KB
+  • Cylindricalanalyzer.TypeDetection.cs                     8 KB
+  • Cylindricalanalyzer.Visualization.cs                     6 KB
+
+[Analyzers\Data]
+──────────────────────────────────────────────────────────────────────
+  • ProcessedSurface.cs                                      2 KB
+  • SurfaceData.cs                                          693 B
+  • SurfaceEnums.cs                                          3 KB
+  • SurfaceProcessor.cs                                     10 KB
+
+[Analyzers\SurfaceAnal]
+──────────────────────────────────────────────────────────────────────
+  • Nurbsnormalhandler.cs                                   10 KB
+  • Nurbssurfaceanalyzer.cs                                 11 KB
+  • SurfaceAnalyzer.cs                                      20 KB
+  • SurfaceAnalyzer.Visibility.cs                            5 KB
+
+[CNC\Machine]
+──────────────────────────────────────────────────────────────────────
+  • Machinedata.cs                                           1 KB
+  • Machinestorage.cs                                        2 KB
+
+[Core]
+──────────────────────────────────────────────────────────────────────
+  • Program.cs                                               1 KB
+
+[doc]
+──────────────────────────────────────────────────────────────────────
+  • CLOUD_EGITIM_DOKUMANTASYON.md                           43 KB
+
+[Forms]
+──────────────────────────────────────────────────────────────────────
+  • Form_CNC_Machines.cs                                    11 KB
+  • Form_CNC_Machines.Designer.cs                            8 KB
+  • Form_CNC_Machines.resx                                   8 KB
+  • Form_New_Prob.cs                                        22 KB
+  • Form_New_Prob.Designer.cs                               35 KB
+  • Form_New_Prob.ProbeBuilder.cs                           11 KB
+  • Form_New_Prob.Rendering.cs                               6 KB
+  • Form_New_Prob.resx                                       4 MB
+  • Form_New_Prob.TextLogo.cs                                3 KB
+  • Form1.ClearancePlane.cs                                  6 KB
+  • Form1.CNCMachine.cs                                      4 KB
+  • Form1.FileOperations.cs                                 17 KB
+  • Form1.FormEvents.cs                                     12 KB
+  • Form1.GCodeGeneration.cs                                 7 KB
+  • Form1.Language.cs                                        3 KB
+  • Form1.ProbeManagement.cs                                10 KB
+  • Form1.ToolButtons.cs                                    11 KB
+  • Form1.ToolsSelection.cs                                  8 KB
+  • Form1.UIHelpers.cs                                       2 KB
+  • Form1.ViewManagement.cs                                  5 KB
+  • Form1.WindowManagement.cs                                8 KB
+  • Forum_ridge_width.cs                                    409 B
+  • Forum_ridge_width.Designer.cs                            1 KB
+  • Forum_ridge_width.resx                                   5 KB
+  • password.cs                                              2 KB
+  • password.Designer.cs                                     5 KB
+  • password.resx                                            5 KB
+
+[Handlers\AngleMeasurement]
+──────────────────────────────────────────────────────────────────────
+  • AngleMeasurementManager.cs                             141 KB
+
+[Handlers\EdgeToEdge]
+──────────────────────────────────────────────────────────────────────
+  • EdgeToEdgeInfoPanel.cs                                  11 KB
+
+[Handlers\FaceToFace]
+──────────────────────────────────────────────────────────────────────
+  • FaceToFaceInfoPanel.cs                                  12 KB
+
+[Handlers\PointProbing]
+──────────────────────────────────────────────────────────────────────
+  • PointProbingHandler.cs                                   2 KB
+  • PointProbingHandler.DataAccess.cs                        1 KB
+  • PointProbingHandler.EventHandlers.cs                     8 KB
+  • PointProbingHandler.HelperMethods.cs                     7 KB
+  • PointProbingHandler.Initialization.cs                    1 KB
+  • PointProbingHandler.MarkerManagement.cs                  6 KB
+  • PointProbingHandler.ModeManagement.cs                    1 KB
+  • PointProbingHandler.PointManagement.cs                  17 KB
+  • PointProbingHandler.TreeViewIntegration.cs              522 B
+
+[Handlers\RidgeWidth]
+──────────────────────────────────────────────────────────────────────
+  • RidgeWidthHandler.cs                                     3 KB
+  • RidgeWidthHandler.GroupManagement.cs                     4 KB
+  • RidgeWidthHandler.Initialization.cs                      2 KB
+  • RidgeWidthHandler.MarkerManagement.cs                    1 KB
+  • RidgeWidthHandler.MouseInteraction.cs                   32 KB
+  • RidgeWidthHandler.PointSelection.cs                     43 KB
+  • RidgeWidthHandler.SurfaceHighlighting.cs                12 KB
+  • RidgeWidthHandler.ToolpathGeneration.cs                  7 KB
+
+[Handlers\Selection]
+──────────────────────────────────────────────────────────────────────
+  • FaceSelectionHandler.cs                                 13 KB
+  • PointSelectionHandler.cs                                15 KB
+
+[icons]
+──────────────────────────────────────────────────────────────────────
+  • 1-removebg-preview.png                                  55 KB
+  • 111 (1).png                                              1 MB
+  • 112.png                                                267 KB
+  • 1144.png                                               970 KB
+  • 2-removebg-preview.png                                  78 KB
+  • 3-removebg-preview.png                                  70 KB
+  • 4-removebg-preview.png                                  80 KB
+  • 5-removebg-preview.png                                  63 KB
+  • 7-removebg-preview.png                                  69 KB
+  • 8-removebg-preview.png                                  91 KB
+  • 8.jpg                                                  235 KB
+  • 8.png                                                    1 MB
+  • 9-removebg-preview.png                                  57 KB
+  • hole.ico                                                 1 KB
+  • Icons-Land-Play-Stop-Pause-Record-Pressed.256.png        6 KB
+  • Icons-Land-Play-Stop-Pause-Stop-Normal-Red.256.png      16 KB
+  • icons8-tools-100.png                                     2 KB
+  • image_45x45_hq2.ico                                      8 KB
+  • play-button.png                                         35 KB
+  • point.ico                                                1 KB
+  • post.png                                                14 KB
+
+[Managers\ClearancePlane]
+──────────────────────────────────────────────────────────────────────
+  • ClearancePlaneManager.cs                                11 KB
+
+[Managers\Data]
+──────────────────────────────────────────────────────────────────────
+  • DataManager.cs                                          11 KB
+  • FileManager.cs                                           3 KB
+  • MeasurementDataManager.cs                               34 KB
+  • PathManager.cs                                           4 KB
+  • Point3DConverter.cs                                      3 KB
+  • Vector3DConverter.cs                                     3 KB
+
+[Managers\Marker]
+──────────────────────────────────────────────────────────────────────
+  • MarkerManager.Creation.cs                                8 KB
+  • MarkerManager.cs                                         3 KB
+  • MarkerManager.Selection.cs                              10 KB
+
+[Managers\Selection]
+──────────────────────────────────────────────────────────────────────
+  • SelectionManager.cs                                     16 KB
+  • SelectionMode.cs                                         1 KB
+
+[Managers\Toolpath]
+──────────────────────────────────────────────────────────────────────
+  • ToolpathManager.cs                                      33 KB
+
+[Managers\TreeView]
+──────────────────────────────────────────────────────────────────────
+  • TreeViewManager.Configuration.cs                        10 KB
+  • TreeViewManager.Core.cs                                  5 KB
+  • TreeViewManager.DataLoading.cs                           4 KB
+  • TreeViewManager.EventHandlers.cs                        25 KB
+  • TreeViewManager.ProbeManagement.cs                      53 KB
+  • TreeViewManager.UI.cs                                   20 KB
+
+[Managers\UI]
+──────────────────────────────────────────────────────────────────────
+  • UIManager.CoordinateLabel.cs                             1 KB
+  • UIManager.cs                                             2 KB
+  • UIManager.PointsGrid.cs                                 17 KB
+  • UIManager.SurfacesGrid.cs                               19 KB
+
+[Managers\View]
+──────────────────────────────────────────────────────────────────────
+  • ViewManager.cs                                           9 KB
+
+[Measurements\Face]
+──────────────────────────────────────────────────────────────────────
+  • Facemeasurementanalyzer.cs                               5 KB
+  • Facemeasurementanalyzer.FaceDetection.cs                23 KB
+  • Facemeasurementanalyzer.Measurements.cs                 19 KB
+  • FaceMeasurementForm.cs                                  10 KB
+
+[Measurements\Integration]
+──────────────────────────────────────────────────────────────────────
+  • Form1_measurement.cs                                    12 KB
+  • Form1.MeasurementModes.cs                                3 KB
+
+[Measurements\Length]
+──────────────────────────────────────────────────────────────────────
+  • LengthMeasurement.EnableDisable.cs                       4 KB
+  • LengthMeasurement.MouseHandling.cs                       4 KB
+  • LengthMeasurement.MouseMove.cs                           7 KB
+  • LengthMeasurement.SnapDetection.cs                      22 KB
+  • LengthMeasurement.SnapSystem.cs                         12 KB
+  • Lengthmeasurementanalyzer.cs                             8 KB
+  • LengthMeasurementForm.cs                                10 KB
+
+[Measurements\Surface]
+──────────────────────────────────────────────────────────────────────
+  • SurfaceMeasurementAnalyzer.Calculations.cs               9 KB
+  • SurfaceMeasurementAnalyzer.cs                            3 KB
+  • SurfaceMeasurementAnalyzer.MouseHandling.cs              7 KB
+  • Surfacetosurfacemeasurement.cs                          18 KB
+
+[Probe\CMM]
+──────────────────────────────────────────────────────────────────────
+  • CMM_PathVisualizer.cs                                   10 KB
+  • CMM_ProbePath.cs                                         7 KB
+  • CMM_ProbePathTest.cs                                    10 KB
+  • CMM_ProbePoint.cs                                        5 KB
+
+[Probe\Configuration]
+──────────────────────────────────────────────────────────────────────
+  • Probelogosettings.cs                                    884 B
+  • Probelogostorage.cs                                      3 KB
+  • ProbeStorage.cs                                          4 KB
+
+[Probe\Core]
+──────────────────────────────────────────────────────────────────────
+  • ProbeBuilder.cs                                          6 KB
+  • ProbeCalculator.cs                                      12 KB
+  • ProbeData.cs                                             3 KB
+  • ProbeModifier.cs                                        10 KB
+
+[Probe\Visualization]
+──────────────────────────────────────────────────────────────────────
+  • Probecoloranimator.cs                                    8 KB
+  • ProbeLayerNames.cs                                       1 KB
+  • ProbeLogoManager.cs                                      5 KB
+
+[Properties]
+──────────────────────────────────────────────────────────────────────
+  • Resources.Designer.cs                                    2 KB
+  • Resources.resx                                           5 KB
+  • Settings.Designer.cs                                     1 KB
+  • Settings.settings                                       424 B
+
+[RESOURCES]
+──────────────────────────────────────────────────────────────────────
+  • DIL_CEVIRI_FINAL_OZET.txt                               26 KB
+  • DIL_CEVIRI_SISTEMI.txt                                  31 KB
+  • Strings.Designer.cs                                      9 KB
+  • Strings.resx                                             4 KB
+  • Strings.ru.resx                                          5 KB
+  • Strings.tr.resx                                          4 KB
+
+[Utilities\Collision]
+──────────────────────────────────────────────────────────────────────
+  • CollisionDetector.cs                                     9 KB
+  • ImportToMeshForCollision.cs                             11 KB
+
+[Utilities\FileOperations]
+──────────────────────────────────────────────────────────────────────
+  • FileImporter.cs                                         18 KB
+
+[Utilities\UI]
+──────────────────────────────────────────────────────────────────────
+  • InstructionPanel.cs                                     10 KB
+  • Notes.cs                                                 3 KB
