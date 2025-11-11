@@ -1,0 +1,8 @@
+[
+  {
+    "MachineName": "1",
+    "ControlSystem": "Heidenhain",
+    "Coordinates": "X, Y, Z",
+    "ToolNumber": 1
+  }
+]

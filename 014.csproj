@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>_014</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>6bf52a50-394a-11d3-b153-00c04f79faa6</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <WrapperTool>aximp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>6bf52a50-394a-11d3-b153-00c04f79faa6</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="devDept.Eyeshot" Version="2025.3.457" />
+    <PackageReference Include="devDept.Eyeshot.Control.Win" Version="2025.3.457" />
+    <PackageReference Include="devDept.Eyeshot.x64" Version="2025.3.457" />
+  </ItemGroup>
+
+  <!-- ========================================== -->
+  <!-- FORM_NEW_PROB PARTIAL CLASSES -->
+  <!-- ========================================== -->
+  <ItemGroup>
+    <!-- Partial class'ları Form_New_Prob.cs'e bağla -->
+    <Compile Update="Forms\Form_New_Prob.ProbeBuilder.cs">
+      <DependentUpon>Form_New_Prob.cs</DependentUpon>
+    </Compile>
+    
+    <Compile Update="Forms\Form_New_Prob.Rendering.cs">
+      <DependentUpon>Form_New_Prob.cs</DependentUpon>
+    </Compile>
+    
+    <Compile Update="Forms\Form_New_Prob.TextLogo.cs">
+      <DependentUpon>Form_New_Prob.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="RESOURCES\Strings.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Managers\UI\UIManager.CoordinateLabel.cs">
+      <DependentUpon>UIManager.cs</DependentUpon>
+    </Compile>
+  
+    <Compile Update="Managers\UI\UIManager.PointsGrid.cs">
+      <DependentUpon>UIManager.cs</DependentUpon>
+    </Compile>
+  
+    <Compile Update="Managers\UI\UIManager.SurfacesGrid.cs">
+      <DependentUpon>UIManager.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RESOURCES\Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RESOURCES\Strings.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RESOURCES\Strings.tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

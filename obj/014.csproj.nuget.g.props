@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Delta\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.14.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Delta\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\ACCAMERA_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\ACCAMERA_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>ACCAMERA_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\ATEXT_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\ATEXT_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>ATEXT_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\AcDgnLS_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\AcDgnLS_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>AcDgnLS_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\AcIdViewObj_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\AcIdViewObj_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>AcIdViewObj_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\AcMPolygonObj15_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\AcMPolygonObj15_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>AcMPolygonObj15_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\ISM_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\ISM_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>ISM_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\ModelerGeometry_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\ModelerGeometry_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>ModelerGeometry_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\OdDwg2PrcExport_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\OdDwg2PrcExport_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>OdDwg2PrcExport_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\OdOleSsItemHandler_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\OdOleSsItemHandler_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>OdOleSsItemHandler_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\OdPrcBaseExport_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\OdPrcBaseExport_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>OdPrcBaseExport_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\OdPrcModule_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\OdPrcModule_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>OdPrcModule_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\OdSwigNetLoad_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\OdSwigNetLoad_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>OdSwigNetLoad_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\PdfPublish_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\PdfPublish_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>PdfPublish_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\PlotSettingsValidator_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\PlotSettingsValidator_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>PlotSettingsValidator_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\RText_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\RText_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>RText_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\RasterProcessor_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\RasterProcessor_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>RasterProcessor_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\RcsFileServices_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\RcsFileServices_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>RcsFileServices_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\RecomputeDimBlock_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\RecomputeDimBlock_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>RecomputeDimBlock_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\RxRasterServices_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\RxRasterServices_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>RxRasterServices_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\SCENEOE_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\SCENEOE_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>SCENEOE_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TD_Ave_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TD_Ave_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>TD_Ave_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TD_DbEntities_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TD_DbEntities_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>TD_DbEntities_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TD_DbIO_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TD_DbIO_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>TD_DbIO_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TD_Dwf7Import_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TD_Dwf7Import_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>TD_Dwf7Import_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TD_DynBlocks_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TD_DynBlocks_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>TD_DynBlocks_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TD_PdfExport_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TD_PdfExport_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>TD_PdfExport_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\ThreadPool_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\ThreadPool_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>ThreadPool_26.3_17.tx</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TrGL2_26.3_17.txr" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\TrGL2_26.3_17.txr')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>TrGL2_26.3_17.txr</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\WinGLES2_26.3_17.txv" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\WinGLES2_26.3_17.txv')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>WinGLES2_26.3_17.txv</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\WipeOut_26.3_17.tx" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\contentFiles\any\any\WipeOut_26.3_17.tx')">
+      <NuGetPackageId>devDept.Eyeshot.x64</NuGetPackageId>
+      <NuGetPackageVersion>2025.3.457</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>WipeOut_26.3_17.tx</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)sixlabors.imagesharp\3.1.11\build\SixLabors.ImageSharp.props" Condition="Exists('$(NuGetPackageRoot)sixlabors.imagesharp\3.1.11\build\SixLabors.ImageSharp.props')" />
+    <Import Project="$(NuGetPackageRoot)devdept.eyeshot\2025.3.457\buildTransitive\devDept.Eyeshot.props" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot\2025.3.457\buildTransitive\devDept.Eyeshot.props')" />
+    <Import Project="$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\build\devDept.Eyeshot.x64.props" Condition="Exists('$(NuGetPackageRoot)devdept.eyeshot.x64\2025.3.457\build\devDept.Eyeshot.x64.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgdevDept_Eyeshot_Control_Win Condition=" '$(PkgdevDept_Eyeshot_Control_Win)' == '' ">C:\Users\Delta\.nuget\packages\devdept.eyeshot.control.win\2025.3.457</PkgdevDept_Eyeshot_Control_Win>
+  </PropertyGroup>
+</Project>

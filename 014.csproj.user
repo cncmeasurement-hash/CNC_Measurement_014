@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Handlers\EdgeToEdge\EdgeToEdgeInfoPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Measurements\Face\FaceMeasurementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Handlers\FaceToFace\FaceToFaceInfoPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.ClearancePlane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.CNCMachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.FileOperations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.FormEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.GCodeGeneration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.Language.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Measurements\Integration\Form1.MeasurementModes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.ProbeManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.ToolButtons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.ToolsSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.UIHelpers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.ViewManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.WindowManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Measurements\Integration\Form1_measurement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form_CNC_Machines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form_New_Prob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form_New_Prob.ProbeBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form_New_Prob.Rendering.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form_New_Prob.TextLogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Forum_ridge_width.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Utilities\UI\InstructionPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Measurements\Length\LengthMeasurementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
