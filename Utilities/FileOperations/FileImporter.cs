@@ -50,7 +50,7 @@ namespace _014.Utilities.FileOperations
         /// Import edilen modelin en üst noktasını (Z max) bulur ve 
         /// Clearance Plane değerine atar (Z max + 50mm güvenlik mesafesi)
         /// </summary>
-        private void CalculateAndSetClearancePlane()
+        private double CalculateAndSetClearancePlane()
         {
             try
             {
@@ -58,7 +58,7 @@ namespace _014.Utilities.FileOperations
                 if (!(parentForm is CNC_Measurement mainForm))
                 {
                     System.Diagnostics.Debug.WriteLine("⚠️ parentForm CNC_Measurement tipinde değil!");
-                    return;
+                    return 0;
                 }
 
                 double zMax = double.MinValue;
@@ -92,7 +92,7 @@ namespace _014.Utilities.FileOperations
                 if (zMax == double.MinValue || zMax < 0)
                 {
                     System.Diagnostics.Debug.WriteLine("⚠️ Z max bulunamadı, Clearance Plane güncellenmedi");
-                    return;
+                    return 0;
                 }
 
                 // Z max + 50mm güvenlik mesafesi
@@ -108,10 +108,13 @@ namespace _014.Utilities.FileOperations
                 System.Diagnostics.Debug.WriteLine($"   - Entity sayısı: {entityCount}");
                 System.Diagnostics.Debug.WriteLine($"   - Z max: {zMax:F2} mm");
                 System.Diagnostics.Debug.WriteLine($"   - Clearance Plane: {clearancePlane:F2} mm (Z max + 50)");
+                
+                return clearancePlane;
             }
             catch (Exception ex)
             {
                 System.Diagnostics.Debug.WriteLine($"❌ Clearance Plane hesaplama hatası: {ex.Message}");
+                return 0;
             }
         }
 
@@ -150,11 +153,11 @@ namespace _014.Utilities.FileOperations
                 importToMeshForCollision.ProcessImportedEntities();
 
                 // ✅ YENİ: Clearance Plane otomatik hesapla
-                CalculateAndSetClearancePlane();
+                double clearancePlane = CalculateAndSetClearancePlane();
 
 
                 // ✅ YENİ: Otomatik Yüzey Analizi + JSON Kayıt
-                PerformAutomaticSurfaceAnalysis(fileName);
+                PerformAutomaticSurfaceAnalysis(fileName, clearancePlane);
                 
                 // ✅ YENİ: Ridge Width sayaçlarını sıfırla
                 ridgeWidthHandler?.ResetAllAxisCounters();
@@ -225,8 +228,10 @@ namespace _014.Utilities.FileOperations
                 importToMeshForCollision.ProcessImportedEntities();
 
                 // ✅ YENİ: Clearance Plane otomatik hesapla
-                CalculateAndSetClearancePlane();
+                double clearancePlane = CalculateAndSetClearancePlane();
 
+                // ✅ YENİ: Otomatik Yüzey Analizi + JSON Kayıt
+                PerformAutomaticSurfaceAnalysis(fileName, clearancePlane);
                 
                 // ✅ YENİ: Ridge Width sayaçlarını sıfırla
                 ridgeWidthHandler?.ResetAllAxisCounters();
@@ -361,7 +366,7 @@ namespace _014.Utilities.FileOperations
                             importToMeshForCollision.ProcessImportedEntities();
 
                             // ✅ YENİ: Clearance Plane otomatik hesapla
-                            CalculateAndSetClearancePlane();
+                            double clearancePlane = CalculateAndSetClearancePlane();
 
                             
                             // ✅ YENİ: Ridge Width sayaçlarını sıfırla
@@ -401,7 +406,7 @@ namespace _014.Utilities.FileOperations
         /// <summary>
         /// Import sonrası otomatik yüzey analizi ve JSON kayıt
         /// </summary>
-        private void PerformAutomaticSurfaceAnalysis(string fileName)
+        private void PerformAutomaticSurfaceAnalysis(string fileName, double clearancePlane)
         {
             try
             {
@@ -415,7 +420,7 @@ namespace _014.Utilities.FileOperations
                 string stepFileName = Path.GetFileNameWithoutExtension(fileName);
 
                 SurfaceAnalyzer analyzer = new SurfaceAnalyzer(design, dataManager);
-                analyzer.AnalyzePlanarSurfaces(stepFileName);
+                analyzer.AnalyzePlanarSurfaces(stepFileName, clearancePlane);
                 
                 System.Diagnostics.Debug.WriteLine("✅ Otomatik yüzey analizi tamamlandı!");
                 System.Diagnostics.Debug.WriteLine("💾 JSON Desktop'a kaydedildi!");

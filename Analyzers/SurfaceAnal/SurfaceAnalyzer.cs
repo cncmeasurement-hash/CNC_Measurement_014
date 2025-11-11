@@ -286,7 +286,7 @@ namespace _014
         /// Planar Surface'leri analiz eder ve JSON'a kaydeder
         /// </summary>
         /// <param name="stepFileName">STEP dosya adı (uzantısız, opsiyonel)</param>
-        public void AnalyzePlanarSurfaces(string stepFileName = null)
+        public void AnalyzePlanarSurfaces(string stepFileName = null, double clearancePlane = 0)
         {
             try
             {
@@ -424,7 +424,7 @@ namespace _014
                 }
                 
                 // 12. JSON'a kaydet
-                dataManager.SaveToJson(surfacesList, stepFileName);
+                dataManager.SaveToJson(surfacesList, stepFileName, clearancePlane);
                 
                 System.Diagnostics.Debug.WriteLine("");
                 System.Diagnostics.Debug.WriteLine("═══════════════════════════════════════");

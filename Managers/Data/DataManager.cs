@@ -93,12 +93,13 @@ namespace _014.Managers.Data
         /// </summary>
         /// <param name="surfacesList">Kaydedilecek yüzey listesi</param>
         /// <param name="stepFileName">STEP dosya adı (uzantısız, opsiyonel)</param>
-        public bool SaveToJson(List<object> surfacesList, string stepFileName = null)
+        public bool SaveToJson(List<object> surfacesList, string stepFileName = null, double clearancePlane = 0)
         {
             try
             {
                 var jsonData = new
                 {
+                    clearancePlane = Math.Round(clearancePlane, 2),
                     timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
                     totalSurfaces = surfacesList.Count,
                     surfaces = surfacesList
